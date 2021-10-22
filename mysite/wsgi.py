@@ -1,4 +1,3 @@
-import django_on_heroku # top of the file
 
 """
 WSGI config for mysite project.
@@ -17,4 +16,3 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 
 application = get_wsgi_application()
 
-django_on_heroku.settings(locals()) # bottom of the file
